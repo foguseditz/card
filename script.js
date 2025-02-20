@@ -112,7 +112,7 @@ function drawText() {
     if(frameNumber == 500){
         opacity = 0;
     }
-    if(frameNumber > 500 && frameNumber < 750){
+    if(frameNumber > 500 && frameNumber < 900){
         context.fillStyle = `rgba(193, 186, 161, ${opacity})`;
 
         if (window.innerWidth < 600) {           //shortens long sentence for mobile screens
@@ -123,7 +123,7 @@ function drawText() {
 
         opacity = opacity + 0.01;
     }
-    if(frameNumber >= 750 && frameNumber < 1000){
+    if(frameNumber >= 900 && frameNumber < 1300){
         context.fillStyle = `rgba(193, 186, 161, ${opacity})`;
         
         if (window.innerWidth < 600) {
@@ -135,38 +135,38 @@ function drawText() {
         opacity = opacity - 0.01;
     }
 
-    if(frameNumber == 1000){
+    if(frameNumber == 1300){
         opacity = 0;
     }
-    if(frameNumber > 1000 && frameNumber < 1250){
+    if(frameNumber > 1300 && frameNumber < 1700){
         context.fillStyle = `rgba(193, 186, 161, ${opacity})`;
         context.fillText("ขอโทษที่ทำให้รู้สึกว่าเราไม่หวานกันเหมือนเมื่อก่อน", canvas.width/2, canvas.height/2);
         opacity = opacity + 0.01;
     }
-    if(frameNumber >= 1250 && frameNumber < 1500){
+    if(frameNumber >= 1700 && frameNumber < 2200){
         context.fillStyle = `rgba(193, 186, 161, ${opacity})`;
         context.fillText("ขอโทษที่ทำให้รู้สึกว่าเราไม่หวานกันเหมือนเมื่อก่อน", canvas.width/2, canvas.height/2);
         opacity = opacity - 0.01;
     }
 
-    if(frameNumber == 1500){
+    if(frameNumber == 2200){
         opacity = 0;
     }
-    if(frameNumber > 1500 && frameNumber < 1750){
+    if(frameNumber > 2200 && frameNumber < 2600){
         context.fillStyle = `rgba(193, 186, 161, ${opacity})`;
         context.fillText("เค้ายังยืนยันคำเดิมครับเค้ารักเบ้บนะคั้บรักมากกกกกกเยยด้วยย", canvas.width/2, canvas.height/2);
         opacity = opacity + 0.01;
     }
-    if(frameNumber >= 1750 && frameNumber < 2000){
+    if(frameNumber >= 2600 && frameNumber < 2900){
         context.fillStyle = `rgba(193, 186, 161, ${opacity})`;
         context.fillText("เค้ายังยืนยันคำเดิมครับเค้ารักเบ้บนะคั้บรักมากกกกกกเยยด้วยย", canvas.width/2, canvas.height/2);
         opacity = opacity - 0.01;
     }
 
-    if(frameNumber == 2000){
+    if(frameNumber == 2900){
         opacity = 0;
     }
-    if(frameNumber > 2000 && frameNumber < 2250){
+    if(frameNumber > 2900 && frameNumber < 3250){
         context.fillStyle = `rgba(193, 186, 161, ${opacity})`;
 
         if (window.innerWidth < 600) {
@@ -177,7 +177,7 @@ function drawText() {
 
         opacity = opacity + 0.01;
     }
-    if(frameNumber >= 2250 && frameNumber < 2500){
+    if(frameNumber >= 3250 && frameNumber < 3500){
         context.fillStyle = `rgba(193, 186, 161, ${opacity})`;
 
         if (window.innerWidth < 600) {
@@ -195,7 +195,7 @@ function drawText() {
 
     
     
-    if(frameNumber >= 2500 && frameNumber < 99999){
+    if(frameNumber >= 3600 && frameNumber < 99999){
         context.fillStyle = `rgba(193, 186, 161, ${secondOpacity})`;
 
 
@@ -212,7 +212,7 @@ function drawText() {
         secondOpacity = secondOpacity + 0.01;
     }
 
-    if(frameNumber >= 3000 && frameNumber < 99999){
+    if(frameNumber >= 4000 && frameNumber < 99999){
       context.fillStyle = `rgba(193, 186, 161, ${thirdOpacity})`;
         context.fillText("ปล. เค้ามีอะไยให้ด้วยแหยะะะพรุ่งนี้ รักนะคั้บบ อยากเจออแน้ววววว", canvas.width / 2, (canvas.height / 2 + 120));
 
